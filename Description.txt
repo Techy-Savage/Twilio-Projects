@@ -3,6 +3,6 @@
 My first project is a sms messager, where you can use the command "search <search query>" and you can get short results from googles
 webpages about your search. You can use this online or offline without the use of internet or data.
 
-You can also check if a server or domain is online using "ping <ping>" command.
+You can also check if a server or domain is online using "ping <host>" command.
 
 
