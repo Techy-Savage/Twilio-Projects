@@ -30,7 +30,7 @@ def sms_reply():
         os.system(body[4:])
 
     if 'search' in body:
-        driver=webdriver.Chrome(executable_path=r'C:\\Users\\Techy\\Documents\\Python\\Big Projects\\Karim\\chromedriver.exe')
+        driver=webdriver.Chrome(executable_path=r'chromedriver.exe')
         driver.get('https://www.google.com')
         time.sleep(1)
         search = driver.find_element_by_xpath('//*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input')
